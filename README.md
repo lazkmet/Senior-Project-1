@@ -4,8 +4,11 @@ Repository for my environment survey codebase
 This repository is organized into folder branches; each branch contains the code used to evaluate a single toolkit. Branches will contain a repeated file/folder structure containing:
 
 ../Toolkit_Files/ - This folder will contain the actual code or other applicable local downloads required to use a development environment
+
 ../Prereqs/ - This folder will contain any auxilary packages required to run code with the main toolkit
+
 ../Example_Circuits/ - This folder will contain any code or project files created to test the toolkit
+
 ../Readme.txt - This will contain a more detailed instruction set for setup and testing of the example code, as well as any applicable download links.
 
 There are 5 main branches, each representing a different Quantum Programming toolkit:
