@@ -1,0 +1,18 @@
+Ease of Setup - All prerequisites are supposedly listed, and there is a step-by-step process, but there were many steps with several gaps in the instructions.
+Troubleshooting resources are few.
+1/5
+
+Effectiveness of Documentation - The documentation is split into sections - Get Started, Tutorials, "User Manual", Applications, and API Reference.
+The Get Started section covers the multiple ways of installing qulacs briefly, but only has a brief troubleshooting section, and the information provided is somewhat outdated.
+The documentation is copyright 2018, so it seems that it has not been updated since Visual Studio 2019. The Tutorials contain very useful code examples, and Applications has some more advanced examples that may be beneficial to analyze as a group.
+The API reference seems extensive, but does not provide great detail about how the class structure works. It only lists the functions and variables involved within classes, without explaining what they are or how they are used.
+3/5
+
+Capacity for Demonstration - There are not any out-of-the-box visualization tools, so demonstration would be strictly by code.
+1/5
+
+Intuitiveness of Language - The language does not detract from the quantum learning process - Most Quantum State manipulation is through class functions or gates.
+That said, the gate_factory system does separate definition of the circuit from implementation of the circuit; rather than executing it fully sequentially, the programmer defines the full circuit then applies it to the quantum state.
+This could lead to a student subconsciously glossing over the intermediate quantum states, focusing on the circuit as a whole - possibly a useful perspective, but may limit intuition.
+There is also some questionable abstraction involved that subverts quantum theory such as a copy() function (which goes against the no-cloning theorem)
+3/5

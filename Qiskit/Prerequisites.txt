@@ -1,0 +1,11 @@
+Qiskit Instructions - https://qiskit.org/documentation/getting_started.html
+
+Microsoft VSCode* - https://code.visualstudio.com/download
+
+Anaconda* - https://www.anaconda.com/products/distribution
+
+Python - v. 3.7 or later: https://www.python.org/downloads/
+
+
+
+*These are optional software components - there are other ways to accomplish the same tasks that these tools do

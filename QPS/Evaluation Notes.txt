@@ -1,0 +1,17 @@
+Ease of Setup - The only requirements to use QPS are a web browser and an email address. It is incredibly user-friendly and simple to set up
+5/5
+
+Effectiveness of Documentation - QPS uses OpenQASM (Open Quantum Assembly Language) for its circuits, so documentation needs to be read in two places. 
+In order to find more info on QPS, one would need to use their Help page, which contains some tutorials on how to use QPS and how to integrate with the backend.
+In order to find details on the language, one would use the OpenQASM documentation. The version of OpenQASM (2.0) is somewhat behind, so the proper documentation is a bit more difficult to find.
+The help page for QPS is also somewhat sparse in terms of tutorials.
+2/5
+
+Capacity for Demonstration - The circuit is constantly updated to match the code used, and vice-versa. The click-and-drag circuit builder is very helpful for visualizing the logic you are putting into the circuit. 
+There are multiple display options such as a Bloch Sphere, which is enabled by default.
+However, I have not been able to find a way to execute a circuit multiple times repeatedly other than running it one-by-one, so it is a bit more difficult to show bigger picture patterns (this may just be a result of my lack of expertise in OpenQASM).
+4/5
+
+Intuitiveness of Language - The back-and-forth from circuit building to code, with updates propagating in both directions, is quite helpful for understanding of the changes one is making to a quantum state.
+However, it may distract from the applications of said circuit ("what will this circuit do?" instead of "what can I use this quantum state for?"). The language itself has all of the tools necessary to build circuits, and the syntax is not difficult or distracting.
+3/5

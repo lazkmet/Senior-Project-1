@@ -1,0 +1,15 @@
+OPENQASM 2.0;
+include "qelib1.inc";
+
+qreg q[2]; //Declare a two-qubit quantum register
+creg c[2]; //Declare a two-bit classical register
+
+h q[0]; //Apply a Hadamard gate to qubit 0
+x q[1]; //Apply a NOT gate to qubit 1
+h q[1]; //Apply a Hadamard gate to qubit 1
+
+measure q[0] -> c[0]; //Measure the value of qubit 0, and store it in the first classical bit
+
+cx q[1], q[0]; //Apply a Conditional-NOT gate to qubit 0, with qubit 1 as the controlling bit
+
+measure q[0] -> c[1]; //Measure the value of qubit 0 again, storing it in the second classical bit

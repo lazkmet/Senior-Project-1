@@ -1,19 +1,16 @@
 # Senior-Project-1
-Repository for my environment survey codebase
+This repository contains files from my survey of various quantum programming toolkits
 
-This repository is organized into folder branches; each branch contains the code used to evaluate a single toolkit. Branches will contain a repeated file/folder structure containing:
+This repository is organized into folder branches; each branch contains the code used to evaluate a single toolkit. Branches will contain a repeated file/folder structure consisting of:
 
-../Toolkit_Files/ - This folder will contain the actual code or other applicable local downloads required to use a development environment
+../Example_Circuit/ - This folder will contain any code or project files created to test the toolkit
 
-../Prereqs/ - This folder will contain any auxilary packages required to run code with the main toolkit
+../Prerequisites.txt - This will contain a list of software prerequisites and any applicable download links
 
-../Example_Circuits/ - This folder will contain any code or project files created to test the toolkit
+../Readme.txt - This will contain a more detailed instruction set for setup and testing of the example code, as well as any applicable download links (same as Prerequisites).
 
-../Readme.txt - This will contain a more detailed instruction set for setup and testing of the example code, as well as any applicable download links.
-
-There are 5 main branches, each representing a different Quantum Programming toolkit:
+There are 4 main branches, each representing a different Quantum Programming toolkit:
 Blueqat
-Q_Sharp (Q# and Azure Quantum)
 Qiskit
 QPS (Quantum Programming Studio)
 Qulacs

@@ -1,0 +1,1 @@
+The only prerequisite for using QPS is access to a web browser.
