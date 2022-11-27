@@ -1,0 +1,15 @@
+Ease of Setup - There was very little installation required. One merely had to prepare the environment, and run a console command.
+5/5
+
+Effectiveness of Documentation - The documentation itself is well-managed and pretty easy to navigate. However, the API Reference does not provide much detail into what the circuits do, instead relying on prior knowledge.
+This is easily offset by the detailed tutorials they provide on their GitHub, including many example algorithms as well as a basic explanation of the concepts of quantum programming.
+4/5
+
+Capacity for Demonstration - The language allows for easy modifications to the circuit for live "what if?" style demonstrations.
+The included circuit drawing tool is easy to use and understand, but does not seem to allow for formatting changes
+4/5
+
+Intuitiveness of Language - This toolkit very much enhances understanding of quantum programming. The ability to sequentially chain gates on a circuit allows for exploration and keeps implementation simple.
+There are very few additional parameters needed for circuit development, and simulation only requires a single, easy-to-understand function.
+With this toolkit, the focus is on the quantum logic and the circuits themselves, not on learning how to use the language or figuring out how to properly display results.
+5/5

@@ -7,8 +7,8 @@ The API reference is well put-together and easy to navigate
 5/5
 
 Capacity for Demonstration - The language is relatively fast-loading, so demonstrative changes could be made to the code while demonstrating a practice problem.
-There are also some useful visualization tools.
-4/5
+There are also some useful visualization tools, but the default text visualization is not appealing, and formatting can be difficult to manage.
+3/5
 
 Intuitiveness of Language - This language enhances the user's understanding of quantum programming. 
 It follows a class structure that focuses on the circuit without any extraneous steps to produce it. 

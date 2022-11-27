@@ -16,6 +16,8 @@ Note: If pip is not installed, you can find instructions to make sure it is inst
 3. Open your environment in your chosen code editor - Make sure you have the correct environment selected.
 For VS Code, this requires using the Python: Select Interpreter command to choose the interpreter associated with your environment.
 Use the shortcut Ctrl + Shift + P to open the full list of commands in VS Code.
+Alternatively, you can open your code editor using a command prompt in Anaconda to automatically complete this association.
+(open command prompt, run "code" to open VSCode)
 
 4. Import the necessary elements for Qiskit - Use "from qiskit import [package]" as described in the documentation to access Qiskit functions.
 This is explained in more detail in the tutorial listed here: https://qiskit.org/documentation/intro_tutorial1.html
