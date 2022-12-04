@@ -8,7 +8,7 @@ h q[0]; //Apply a Hadamard gate to qubit 0
 x q[1]; //Apply a NOT gate to qubit 1
 h q[1]; //Apply a Hadamard gate to qubit 1
 
-cx q[1], q[0]; //Apply a Conditional-NOT gate to qubit 0, with qubit 1 as the controlling bit
+cx q[0], q[1]; //Apply a Conditional-NOT gate to qubit 1, with qubit 0 as the controlling bit
 
 h q[1]; //Apply a Hadamard gate to qubit 1
 

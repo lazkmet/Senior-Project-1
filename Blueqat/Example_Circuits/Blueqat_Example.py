@@ -10,7 +10,7 @@ circuit = Circuit(2)
 #Conditional-NOT gate to qubit 1, with qubit 0 as the control
 #Hadamard gate to qubit 1
 #Measure the value of both qubits
-circuit.h[0].x[1].h[1].cx[1, 0].h[1].m[:]
+circuit.h[0].x[1].h[1].cx[0, 1].h[1].m[:]
 
 #Simulate this circuit 1000 times and print the results
 print(circuit.run(shots=1000))

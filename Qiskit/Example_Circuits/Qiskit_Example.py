@@ -19,7 +19,7 @@ circuit.x(1)
 circuit.h(1)
 
 #Apply a Conditional-NOT gate to qubit 1, with qubit 0 as the control
-circuit.cnot(0,1)
+circuit.cnot(0, 1)
 
 #Apply a Hadamard gate to qubit 1
 circuit.h(1)
@@ -27,7 +27,7 @@ circuit.h(1)
 #Measure the value of qubit 0, storing it in the classical register at index 0
 circuit.measure(0, 0)
 #Measure the value of qubit 1, storing it in the classical register at index 1
-circuit.measure(1,1)
+circuit.measure(1, 1)
 
 #Simulate this circuit 1000 times using QasmSimulator
 simulation = simulator.run(circuit, shots=1000)

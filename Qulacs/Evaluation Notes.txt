@@ -15,4 +15,4 @@ Intuitiveness of Language - The language does not detract from the quantum learn
 That said, the gate_factory system does separate definition of the circuit from implementation of the circuit; rather than executing it fully sequentially, the programmer defines the full circuit then applies it to the quantum state.
 This could lead to a student subconsciously glossing over the intermediate quantum states, focusing on the circuit as a whole - possibly a useful perspective, but may limit intuition.
 There is also some questionable abstraction involved that subverts quantum theory such as a copy() function (which goes against the no-cloning theorem)
-3/5
+2/5
